@@ -12,3 +12,7 @@ INPUT_FILE = "places.csv"
 FAREWELL = "Have a nice day :) "
 TITLE = "Travel tracker - by Adela Negara Putri"
 
+#main
+def main():
+    in_file = open(INPUT_FILE)
+    read_file = csv.reader(in_file, delimiter=',')
