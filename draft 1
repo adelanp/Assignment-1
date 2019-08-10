@@ -1,0 +1,14 @@
+import csv
+
+#a constant for the menu and csv file
+MENU_CHOICE = """
+Menu:
+L - List of places
+A - Add a new place 
+M - Mark a place as visited
+Q - Quit
+"""
+INPUT_FILE = "places.csv"
+FAREWELL = "Have a nice day :) "
+TITLE = "Travel tracker - by Adela Negara Putri"
+
